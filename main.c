@@ -8,6 +8,13 @@ void excluiContato();
 void editaContato();
 void listaTodosContatos();
 
+typedef struct {
+    int id;
+    char nome[50];
+    char email[100];
+    short telefone;
+} Contato;
+
 int main(int argc, char *argv[]) {
 
     setlocale(LC_ALL, "Portuguese");
@@ -21,6 +28,7 @@ int main(int argc, char *argv[]) {
         }
     } while (opcaoSerExecutada!=5);
     
+
     printf("Programa foi finalizado.");
 
     return 0;
