@@ -10,4 +10,7 @@ iii) alterar um contato existente;
 
 iv) listar todos os contatos cadastrados; 
 
-v) finalizar o programa. A estrutura do contato deve conter um código de identificação, nome, e-mail e celular. Os dados da agenda de contatos devem ser salvos em arquivo, garantindo que ao fechar o programa, os dados serão mantidos.
+v) finalizar o programa. 
+
+
+A estrutura do contato deve conter um código de identificação, nome, e-mail e celular. Os dados da agenda de contatos devem ser salvos em arquivo, garantindo que ao fechar o programa, os dados serão mantidos.
